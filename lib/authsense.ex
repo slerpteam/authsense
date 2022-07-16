@@ -73,10 +73,6 @@ defmodule Authsense do
   things: see [Recipes](recipes.html).
   """
 
-  if Application.get_all_env(:authsense) == [] do
-    raise Authsense.UnconfiguredException
-  end
-
   @defaults %{
     crypto: Pbkdf2,
     identity_field: :email,
