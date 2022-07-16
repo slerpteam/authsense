@@ -27,7 +27,7 @@ defmodule Authsense.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :plug, :ecto]]
+    []
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]
