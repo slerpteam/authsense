@@ -45,7 +45,7 @@ defmodule Authsense.Mixfile do
   defp deps do
     [
       {:ecto, "~> 3.8.4"},
-      {:plug, "~> 1.4.0"},
+      {:plug, "~> 1.14.0"},
       {:comeonin, "~> 5.3"},
       {:pbkdf2_elixir, "~> 2.0.0"},
       {:earmark, "~> 1.4", only: :dev},
