@@ -44,7 +44,7 @@ defmodule Authsense.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ecto, "~> 3.8.4"},
+      {:ecto, "~> 3.10"},
       {:plug, "~> 1.14.0"},
       {:comeonin, "~> 5.3"},
       {:pbkdf2_elixir, "~> 2.0.0"},
